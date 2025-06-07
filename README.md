@@ -37,7 +37,8 @@ Or directly with the Cap'n Proto compiler:
 ```bash
 capnp compile -ojava src/main/capnp/*.capnp
 ```
-> **Warning**: The Java implementation of Cap'n Proto currently does not support interfaces. If you're planning to use interfaces in your schema, you'll need to use alternative approaches or wait for future updates.
+> [!NOTE]\
+> The Java implementation of Cap'n Proto currently does not support interfaces. If you're planning to use interfaces in your schema, you'll need to use alternative approaches or wait for future updates.
 
 ## Example Output
 
